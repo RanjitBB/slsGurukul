@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/janmashtami",
+      "destination": "https://janmashtami-joy-fest.vercel.app",
+      "permanent": false
+    },
+    {
+      "source": "/janmashtami/:path*",
+      "destination": "https://janmashtami-joy-fest.vercel.app/:path*",
+      "permanent": false
+    }
+  ]
+}
