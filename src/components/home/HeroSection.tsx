@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import Link from "next/link";
 
@@ -59,6 +59,16 @@ export function HeroSection() {
                             Begin Your Journey
                         </Button>
                     </Link>
+                    <a
+                        href="https://janmashtami-joy-fest.vercel.app"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <Button variant="secondary" size="lg" className="group">
+                            <Sparkles className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
+                            Janmashtami 2026
+                        </Button>
+                    </a>
                 </motion.div>
             </div>
 

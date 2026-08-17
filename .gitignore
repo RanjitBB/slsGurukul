@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Temporary clone of Janmashtami-Joy-Fest (deployed separately to Vercel)
+temp/
