@@ -67,7 +67,7 @@ export function HeroSection() {
                     transition={{ duration: 0.5, delay: 0.6 }}
                 >
                     <a
-                        href="https://janmashtami-joy-fest.vercel.app"
+                        href="https://janmashtami.slsinternationalgurukul.org"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block w-full sm:w-auto"

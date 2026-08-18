@@ -3,12 +3,12 @@
   "redirects": [
     {
       "source": "/janmashtami",
-      "destination": "https://janmashtami-joy-fest.vercel.app",
+      "destination": "https://janmashtami.slsinternationalgurukul.org",
       "permanent": false
     },
     {
       "source": "/janmashtami/:path*",
-      "destination": "https://janmashtami-joy-fest.vercel.app/:path*",
+      "destination": "https://janmashtami.slsinternationalgurukul.org/:path*",
       "permanent": false
     }
   ]
