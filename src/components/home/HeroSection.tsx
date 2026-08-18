@@ -59,14 +59,22 @@ export function HeroSection() {
                             Begin Your Journey
                         </Button>
                     </Link>
+                </motion.div>
+
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, delay: 0.6 }}
+                >
                     <a
                         href="https://janmashtami-joy-fest.vercel.app"
                         target="_blank"
                         rel="noopener noreferrer"
+                        className="inline-block w-full sm:w-auto"
                     >
-                        <Button variant="secondary" size="lg" className="group">
+                        <Button variant="secondary" size="lg" className="group w-full sm:w-auto sm:px-12">
                             <Sparkles className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
-                            Janmashtami 2026
+                            SLS Janmashtami Registrations 2026
                         </Button>
                     </a>
                 </motion.div>
